@@ -1,0 +1,62 @@
+body{
+    background-color: dodgerblue;
+    font-family: sans-serif;
+
+}
+
+.container{
+    width: 400px;
+    background-color: darkgreen;
+    margin-top: 10px;
+    margin-left: 33%;
+    text-align: center;
+    padding-top: 5px ;
+}
+
+.container h1{
+    font-size: 20px;
+}
+
+.container input{
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(205, 235, 9, 0.825);
+    margin-left: 33%;
+    width: 400px;
+    height: 35px;
+}
+
+.list h2{
+    font-size: 15px;
+}
+
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 33%;
+    width: 400px;
+    background-color: rgba(205, 235, 9, 0.825);
+}
+
+table tr td{
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+#occupation{
+   padding-left: 75px;
+}
+
